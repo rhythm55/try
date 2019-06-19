@@ -7,19 +7,6 @@ $(window).on('load', function () { // makes sure that whole site is loaded
 });
 
 
-
-/* =========================================
-               Responsive Tabs
-============================================ */
-$(function () {
-
-    $("#services-tabs").responsiveTabs({
-        animation: 'slide'
-    });
-
-});
-
-
 /* =========================================
               Navigation
 ============================================ */

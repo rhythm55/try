@@ -389,7 +389,7 @@
     }
     
     #why-cover{
-        background-image: url("../img/why/why-cover.jpg")
+        background-image: url("/static/img/why/why-cover.jpg")
     }
     
     .why-heading{

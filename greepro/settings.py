@@ -23,9 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'xweic_&3mya#1ntor73ky^4heomhk!12i*30gb(c($fk^j&pde'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+	 'www.greepro.co.in',
+	 '134.209.148.157',
+	 'greepro.co.in'
+]
 
 
 # Application definition
