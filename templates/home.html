@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {% load staticfiles %}
+
+    <!-- important meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Greepro - Creating healthy CHD</title>
+
+    <!-- Basic SEO -->
+    <meta name="description" content="Greepro - creating healthy chandigarh">
+    <meta name="keywords" content="juices,healthy juices,healthy food,green juices,haelthy juices in chandigarh, Creative website, gree webiste">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'img/favicon/fav.png' %}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- Google Fonts for cursive   -->
+    <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap" rel="stylesheet">
+    <!-- Google Fonts for compliment of cursive   -->
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome/css/font-awesome.min.css' %}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+
+
+</head>
+
+<body data-spy="scroll" data-target=".white-nav-top" data-offset="65">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-md white-nav-top">
+
+            <!-- Mobile Menu Open Button -->
+            <span id="mobile-nav-open-btn">&#9776;</span>
+
+           <div class="navbar-collapse collapse order-1 order-md-0">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll" href="#juices">
+                            <div class="fix-item">
+                              <div class="circle">
+                                  <i class="fa fa-glass"></i>
+                                   <h5>Our juices</h5>
+                              </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link smooth-scroll" href="#why">
+                            <div class="fix-item">
+                              <div class="circle">
+                                  <i class="fa fa-thumbs-up"></i>
+                                   <h5>Why Greepro</h5>
+                              </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#home" class="navbar-brand smooth-scroll mx-auto order-0 order-md-2 p-2">
+                <img src="{% static 'img/logo/logo.JPG' %}" />
+            </a>
+
+            <div class="navbar-collapse collapse order-4 order-md-4 justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                         <a class="nav-link smooth-scroll" href="#mission">
+                            <div class="fix-item">
+                                <div class="circle">
+                                  <i class="fa fa-rocket"></i>
+                                  <h5>Our Mission</h5>
+                                </div>
+                            </div>
+                         </a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link smooth-scroll" href="#story">
+                            <div class="fix-item">
+                                 <div class="circle">
+                                  <i class="fa fa-pencil"></i>
+                                  <h5>Our Story</h5>
+                                </div>
+                            </div>
+                         </a>
+                    </li>
+                </ul>
+            </div>
+
+             <!-- Mobile Menu -->
+                    <div id="mobile-nav">
+                        <!-- Mobile Menu Close Button -->
+                        <span id="mobile-nav-close-btn">&times;</span>
+
+                        <div id="mobile-nav-content">
+                            <ul class="nav">
+<!--
+                                <li><a class="smooth-scroll" href="#juices">Juices</a></li>
+                                <li><a class="smooth-scroll" href="#why">Why Greepro</a></li>
+                                <li><a class="smooth-scroll" href="#mission">Our Mission</a></li>
+                                <li><a class="smooth-scroll" href="#story">our Story</a></li>
+-->
+                              <div class="row">
+                               <div class="col-xs-6">
+                                <li>
+                                    <a class="nav-link smooth-scroll" href="#juices">
+                                        <div class="fix-item">
+                                          <div class="circle">
+                                              <i class="fa fa-glass"></i>
+                                               <h5>Our juices</h5>
+                                          </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                </div>
+                                <div class="col-xs-6">
+                                <li>
+                                   <a class="nav-link smooth-scroll" href="#why">
+                                        <div class="fix-item">
+                                          <div class="circle">
+                                              <i class="fa fa-thumbs-up"></i>
+                                               <h5>Why Greepro</h5>
+                                          </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                </div>
+                                <div class="col-xs-6">
+                                 <li>
+                                     <a class="nav-link smooth-scroll" href="#mission">
+                                        <div class="fix-item">
+                                            <div class="circle">
+                                              <i class="fa fa-rocket"></i>
+                                              <h5>Our Mission</h5>
+                                            </div>
+                                        </div>
+                                     </a>
+                                </li>
+                                </div>
+                                <div class="col-xs-6">
+                                <li>
+                                     <a class="nav-link smooth-scroll" href="#story">
+                                        <div class="fix-item">
+                                             <div class="circle">
+                                              <i class="fa fa-pencil"></i>
+                                              <h5>Our Story</h5>
+                                            </div>
+                                        </div>
+                                     </a>
+                                </li>
+                                </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+        </nav>
+    </header>
+    <!-- Header Ends -->
+
+     <!-- Home -->
+    <section id="home">
+
+        <div id="home-cover" class="bg-parallax animated fadeIn">
+
+        </div>
+
+    </section>
+
+    <!--- Mission -->
+    <section id="mission">
+        <div class="container">
+            <div class="row mission-container">
+                <div class="col-md-3 mission-leaf">
+                    <i class="fa fa-leaf" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-9">
+                   <div class="mission-context">
+                        <div class="mission-container-heading">
+                            Our Mission <br/><span>wholehearted</span>
+                        </div>
+                        <div class="mission-container-context">
+                            <p>
+                                We believe healthy and sustainable food options should be available to everyone in our communities. That's why at GreePro, it's our mission to promote the wellbeing of people and planet by providing an avenue to support healthy chioces and sustainable practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Juices  -->
+    <section id="juices">
+       <ul class="ch-grid">
+           <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                   <div class="juice-heading">
+                            <h3>Our Juices</h3>
+                            <ion-icon name="wine"></ion-icon>
+                        </div>
+               </div>
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <a  class="showSingle smooth-scroll" data-target="1">
+                        <div class="ch-item ch-img-1">
+                         <div class="ch-info">
+                          </div>
+                        </div>
+                        <h1 class="juice-name">Power Up</h1>
+                      </a>
+                </div>
+                 <div class="col-md-2 col-sm-4 col-xs-4">
+                  <a  class="showSingle smooth-scroll" data-target="2">
+                    <div class="ch-item ch-img-2">
+                      <div class="ch-info">
+                      </div>
+                    </div>
+                     <h1 class="juice-name">Golden Glow</h1>
+                  </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                   <a  class="showSingle smooth-scroll" data-target="3">
+                    <div class="ch-item ch-img-3">
+                      <div class="ch-info">
+                      </div>
+                    </div>
+                     <h1 class="juice-name">Fat Burner</h1>
+                  </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                   <a class="showSingle smooth-scroll" data-target="4">
+                    <div class="ch-item ch-img-4">
+                      <div class="ch-info">
+                      </div>
+                    </div>
+                     <h1 class="juice-name">Doctor Green</h1>
+                  </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                   <a class="showSingle smooth-scroll" data-target="5">
+                    <div class="ch-item ch-img-5">
+                      <div class="ch-info">
+                      </div>
+                    </div>
+                     <h1 class="juice-name">Summer Eloctro</h1>
+                  </a>
+                </div>
+                 <div class="col-md-2 col-sm-4 col-xs-4">
+                  <a class="showSingle smooth-scroll" data-target="6">
+                    <div class="ch-item ch-img-6">
+                      <div class="ch-info">
+                      </div>
+                    </div>
+                    <h1 class="juice-name">God-Father</h1>
+                  </a>
+                </div>
+
+            </div>
+            <div id="juice-cover-1" class="targetDiv div1 bg-parallax animated fadeIn">
+                <h1><span><div class="text-rotate">Power Up</div></span>MultiVitamin Juice</h1>
+                <div class="juice-info">
+                   A heavenly combination of healthy and juicy beet, carrot and ginger, this aromatic Multi-vitamin juice is not just a nutrient rich drink but also a refreshing thirst quencher that is surely going delight your taste buds.
+                </div>
+            </div>
+            <div id="juice-cover-2" class="targetDiv div2 bg-parallax animated fadeIn">
+                <div class="juice-info-container">
+                    <h1><div class="text-rotate">Golden Glow</div><span>Juice</span></h1>
+                    <div class="juice-info">
+                        Pamper your skin with this Golden Glow Elixir, which is not just rejuvenating during the hot summer months but also helps you achieve a healthier glow, brighter eyes, clearer skin, a flatter tummy and easy, regular digestion. Like sunshine in a bottle, this is simply the recipe to happiness!
+                    </div>
+                </div>
+            </div>
+            <div id="juice-cover-3" class="targetDiv div3 bg-parallax animated fadeIn">
+                <h1><div class="text-rotate">Fat Burner</div><span>BottleGourd Juice</span></h1>
+                <div class="juice-info">
+                   For those who want to shed a few kilos but are not able to hit the gym on a regular basis or keep a track on what you eat, this good morning detox juice is sure to lighten your heart (and belly). It may not work like modern Day weight loss medicines, but instead it works holistically by treating the overall body.
+                </div>
+            </div>
+            <div id="juice-cover-4" class="targetDiv div4 bg-parallax animated fadeIn">
+                <h1><div class="text-rotate">Doctor Green</div><span>Morning Juice</span></h1>
+                <div class="juice-info">
+                   A simple, wholesome and super nutritious juice enriched with the generosity of BitterGourd, Wheatgrass, Broccoli, Celery and so much more, the Dr. Green juice is recommended as the first thing in the morning. Not only it detoxifies your body but it is also considered to be an Ayurvedic remedy to treat Diabetes.
+                </div>
+            </div>
+            <div id="juice-cover-5" class="targetDiv div5 bg-parallax animated fadeIn">
+                <h1><div class="text-rotate">Summer Electro</div><span>Shot</span></h1>
+                 <div class="juice-info">
+                   This refreshingly cool summer sip with a splash of watermelon and plums is the prefect drink to enjoy on a hot summer day. Loaded with the goodness of vitamin C and extra hydrating electrolytes, it is also naturally delicious for the sweet-toothed people out there. Win, Win, WIN!
+                </div>
+            </div>
+            <div id="juice-cover-6" class="targetDiv div6 bg-parallax animated fadeIn">
+                <h1><div class="text-rotate">God - Father</div><span>Protien Shake</span></h1>
+                 <div class="juice-info">
+                   Embrace yourself! This thick, vegan Protein shake loaded with creamy peanut butter, old fashioned oats, bananas and slim-fit milk is perfect for breakfast and fueling your body for a healthy day ahead. While ripe bananas & peanut butter create salty-sweet flavor, its flavor & creamy texture triggers sensations of comfort!
+                </div>
+            </div>
+        </div>
+
+            </ul>
+
+    </section>
+
+    <!--- Comment -->
+    <section id="comment">
+        <div class="container comment-container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="{% static 'img/comment/apple.gif' %}">
+                </div>
+                <div class="col-md-8 offset-md-1 comment-comment">
+                    At Greepro, we are on a mission to revolutionize our food system and educate the world that food is healing. In fact, GreePro is built with the GOAL that many health an wellness companies often forget:
+                    <br>
+                    <br>
+                    <span>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                         Make it taste great. Make it simple. Make it affordable. Make it accessible <span style="color: :#fff;"> for everyone</span>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- Why Greepro   -->
+    <section id="why">
+        <div id="why-cover" class="bg-parallax animated fadeIn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 why-heading">
+                        <span>Why!</span>Greepro
+                    </div>
+                    <div class="col-md-2 col-xs-4">
+                       <img class="fsai why-pngs" src="{% static 'img/why/fsai.png' %}" />
+                   </div>
+                    <div class="col-md-2 col-xs-4">
+                        <img class="organic why-pngs" src="{% static 'img/why/organic.png' %}" />
+                    </div>
+                    <div class="col-md-2 col-xs-4">
+                        <img class="no why-pngs" src="{% static 'img/why/no.png' %}" />
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-5 why-content">
+                          Each of our offerings is carefully crafted to benefit your health and satiate your cravings. Every ingredient is chosen based on its healing properties - from fresh fruits and veggies to salt and sweeteners with unparalleled quality. What's more; by applying ancient wisdom to modern-day clean eating, we empower you to be vibrantly healthy and live your best life.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Benifits  -->
+    <section id="benifits">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 benifits-heading">
+                <h1><span>Benefits of</span><br/>GreePro Lifestyle</h1>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="card" style="width: 18rem;">
+                   <div class="card-body">
+                    <h5 class="card-title">INCREASED ENERGY </h5>
+                     <img class="card-img-top" src="{% static 'img/benifits/ben1.png' %}" alt="Card image cap">
+                      <div class="card-mid-img">
+                          <img src="{% static 'img/benifits/1.png' %}">
+                      </div>
+                    <p class="card-text">
+                        As you consume GreePro juices regularly, you’ll notice that you’ve increased energy, more vitality and better zest for life.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4  col-sm-6">
+                <div class="card" style="width: 18rem;">
+                   <div class="card-body">
+                    <h5 class="card-title">AIDS IN WEIGHT LOSS </h5>
+                     <img class="card-img-top" src="{% static 'img/benifits/ben2.png' %}" alt="Card image cap">
+                      <div class="card-mid-img">
+                          <img src="{% static 'img/benifits/2.png' %}">
+                      </div>
+                    <p class="card-text">
+                        GreePro juices are packed with micronutrients that the body craves without the calories. In fact, a single glass of green vegetable juice, full of good nutrients that the body craves, is more beneﬁcial than an entire meal at a swanky restaurant.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4  col-sm-6">
+                <div class="card" style="width: 18rem;">
+                   <div class="card-body">
+                    <h5 class="card-title">SUPPORTS HEALING PROPERTIES</h5>
+                     <img class="card-img-top" src="{% static 'img/benifits/ben3.png' %}" alt="Card image cap">
+                      <div class="{% static 'card-mid-img' %}">
+                          <img src="img/benifits/3.png">
+                      </div>
+                    <p class="card-text">
+                        Green juices are easily digested and the body is able to quickly assimilate the essential vitamins, minerals and nutrients that encourage quick healing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4  col-sm-6 offset-md-2">
+                <div class="card" style="width: 18rem;">
+                   <div class="card-body">
+                    <h5 class="card-title">HEALTHY GLOWING SKIN </h5>
+                     <img class="card-img-top" src="{% static 'img/benifits/ben4.png' %}" alt="Card image cap">
+                      <div class="card-mid-img">
+                          <img src="{% static 'img/benifits/4.png' %}">
+                      </div>
+                    <p class="card-text">
+                        GreePro juices are rich in antioxidants, including vitamins C and E, which are essential to the health of your skin. These antioxidants help to rid your skin of harmful toxins and play crucial role for cell growth.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="card" style="width: 18rem;">
+                   <div class="card-body">
+                    <h5 class="card-title">ENHANCES DETOXIFICATION </h5>
+                     <img class="card-img-top" src="{% static 'img/benifits/ben5.png' %}" alt="Card image cap">
+                      <div class="card-mid-img">
+                          <img src="{% static 'img/benifits/5.png' %}">
+                      </div>
+                    <p class="card-text">
+                        GreePro juices give your liver a ﬁghting chance against all the toxins you’re exposed to on a daily basis and help your body detoxify itself more effectively.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!--  Our Story  -->
+    <section id="story">
+
+
+        <video id="story-bg-video" poster="" autoplay loop muted>
+            <source src="{% static 'img/our_story/sotry.mp4' %}" type="video/mp4">
+        </video>
+
+
+        <div id="story-overlay"></div>
+
+
+        <div id="story-content">
+
+            <div id="story-content-inner" class="text-center">
+
+                <div id="story-heading">
+                    <h1 id="story-heading-1">Our</h1><br>
+                    <h1 id="story-heading-2">Story</h1>
+                </div>
+
+                <div id="story-text">
+                    <p>
+                    In the summer of 2018, two friends came together, each on their own personal journey towards health and well-being. While one aimed to take part in a prestigious bodybuilding competition, the other one strived to jog every day to keep him fit and proactive. Each had experienced their own detours and bumps along the road, but one powerful thing connected them together: Health and wellbeing.
+                    <br>
+                    Digvijay & Rakesh, were both positively inspired to incorporating health and well-being into their daily lives. They figured that in the market that was ever-booming with new products and offerings, it was easier to afford a high-fat burger than a greens-rich salad! That’s when they found their calling:  ‘Serving the community with fresh food and beverages and enrich them with nutrition for a healthy life’.
+                    <br>
+                    And with the foundation of GreePro, they wanted to share what they had discovered. Because they believed that the real secret to a healthy and happy life shouldn't be a secret at all! <i class="fa fa-smile-o" aria-hidden="true"></i>
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer  -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Copyright &copy; 2019 All Rights Reserved By <span>Greepro Inc.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+         <!-- Back To Top -->
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- JQuery -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="{% static 'js/bootstrap/bootstrap.min.js' %}"></script>
+
+    <!-- easing -->
+    <script src="{% static 'js/easing/jquery.easing.1.3.js' %}"></script>
+
+    <!-- Custom JS -->
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>
