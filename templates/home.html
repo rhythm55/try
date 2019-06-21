@@ -33,9 +33,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}">
 
-    <!-- Responsive Tabs CSS -->
-    <link rel="stylesheet" href="{% static 'css/responsive-tabs/responsive-tabs.min.css' %}">
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
@@ -62,17 +59,17 @@
            <div class="navbar-collapse collapse order-1 order-md-0">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#juices">
-                            <div class="fix-item">
-                              <div class="circle">
+                        <a class="nav-link" href="#juices">
+			  <div class="fix-item">
+                               <div class="circle">
                                   <i class="fa fa-glass"></i>
                                    <h5>Our juices</h5>
-                              </div>
+                             	</div>
                             </div>
-                        </a>
+			</a>
                     </li>
                     <li class="nav-item">
-                       <a class="nav-link smooth-scroll" href="#why">
+                       <a class="nav-link" href="#why">
                             <div class="fix-item">
                               <div class="circle">
                                   <i class="fa fa-thumbs-up"></i>
@@ -84,14 +81,14 @@
                 </ul>
             </div>
 
-            <a href="#home" class="navbar-brand smooth-scroll mx-auto order-0 order-md-2 p-2">
+            <a href="#home" class="navbar-brand mx-auto order-0 order-md-2 p-2">
                 <img src="{% static 'img/logo/logo.JPG' %}" />
             </a>
 
             <div class="navbar-collapse collapse order-4 order-md-4 justify-content-end">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                         <a class="nav-link smooth-scroll" href="#mission">
+                         <a class="nav-link" href="#mission">
                             <div class="fix-item">
                                 <div class="circle">
                                   <i class="fa fa-rocket"></i>
@@ -101,7 +98,7 @@
                          </a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link smooth-scroll" href="#story">
+                         <a class="nav-link" href="#story">
                             <div class="fix-item">
                                  <div class="circle">
                                   <i class="fa fa-pencil"></i>
@@ -120,16 +117,10 @@
 
                         <div id="mobile-nav-content">
                             <ul class="nav">
-<!--
-                                <li><a class="smooth-scroll" href="#juices">Juices</a></li>
-                                <li><a class="smooth-scroll" href="#why">Why Greepro</a></li>
-                                <li><a class="smooth-scroll" href="#mission">Our Mission</a></li>
-                                <li><a class="smooth-scroll" href="#story">our Story</a></li>
--->
                               <div class="row">
                                <div class="col-xs-6">
                                 <li>
-                                    <a class="nav-link smooth-scroll" href="#juices">
+                                    <a class="nav-link" href="#juices">
                                         <div class="fix-item">
                                           <div class="circle">
                                               <i class="fa fa-glass"></i>
@@ -141,7 +132,7 @@
                                 </div>
                                 <div class="col-xs-6">
                                 <li>
-                                   <a class="nav-link smooth-scroll" href="#why">
+                                   <a class="nav-link" href="#why">
                                         <div class="fix-item">
                                           <div class="circle">
                                               <i class="fa fa-thumbs-up"></i>
@@ -153,7 +144,7 @@
                                 </div>
                                 <div class="col-xs-6">
                                  <li>
-                                     <a class="nav-link smooth-scroll" href="#mission">
+                                     <a class="nav-link" href="#mission">
                                         <div class="fix-item">
                                             <div class="circle">
                                               <i class="fa fa-rocket"></i>
@@ -165,7 +156,7 @@
                                 </div>
                                 <div class="col-xs-6">
                                 <li>
-                                     <a class="nav-link smooth-scroll" href="#story">
+                                     <a class="nav-link" href="#story">
                                         <div class="fix-item">
                                              <div class="circle">
                                               <i class="fa fa-pencil"></i>
@@ -416,8 +407,8 @@
                    <div class="card-body">
                     <h5 class="card-title">SUPPORTS HEALING PROPERTIES</h5>
                      <img class="card-img-top" src="{% static 'img/benifits/ben3.png' %}" alt="Card image cap">
-                      <div class="{% static 'img/benifits/3.png' %}">
-                          <img src="img/benifits/3.png">
+                      <div class="card-mid-img">
+                          <img src="{% static 'img/benifits/3.png' %}">
                       </div>
                     <p class="card-text">
                         Green juices are easily digested and the body is able to quickly assimilate the essential vitamins, minerals and nutrients that encourage quick healing.
@@ -508,7 +499,7 @@
         </div>
 
          <!-- Back To Top -->
-        <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top hidden-sm hidden-xs" title="home" role="button">
             <i class="fa fa-angle-up"></i>
         </a>
 
@@ -521,9 +512,9 @@
     <!-- Bootstrap JS -->
     <script src="{% static 'js/bootstrap/bootstrap.min.js' %}"></script>
 
-    <!-- Responsive Tabs JS -->
+    <!-- Responsive Tabs JS 
     <script src="{% static 'js/responsive-tabs/jquery.responsiveTabs.min.js' %}"></script>
-
+-->
     <!-- easing -->
     <script src="{% static 'js/easing/jquery.easing.1.3.js' %}"></script>
 

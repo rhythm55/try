@@ -87,7 +87,7 @@
 
 
 /*==================================================
-			Bootstrap 3 Media Queries
+			Bootstrap 3 Media Queries        
 ==================================================*/
 
 
@@ -99,19 +99,19 @@
     .site-nav-wrapper {
         padding: 0 20px;
     }
-
+    
 }
 
 
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    
     /*  --mission--  */
     #mission{
         height: 80%;
     }
-
+    
     /*  ---comment--  */
     #comment{
         height: 87%;
@@ -126,11 +126,11 @@
     .site-nav-wrapper {
         padding: 0;
     }
-
+    
     .fix-item{
         width: 90px;
     }
-
+    
     /*  --mission--  */
     #mission{
         height: 50%;
@@ -140,48 +140,48 @@
         width: 100px;
         height: 200px;
     }
-
+    
     .fa-leaf{
         font-size: 140px;
     }
-
+    
     /*  ---comment--  */
     #comment{
         height: 55%;
     }
-
+    
     #comment img{
         width: 120px;
         height: 170px;
         margin-top: 80px;
     }
-
+    
      /* --why-- */
     #why{
         height: 1400px;
     }
-
+    
     .why-pngs{
         width: 110px;
         height: 120px;
         margin: 15px;
     }
-
+    
     .why-content{
         margin: 20px 0px;
     }
-
+    
     /* --benifits */
-
+    
     .card{
         height: 460px;
         margin-left: -34px
     }
-
+    
     .card-text{
         font-size: 15px;
     }
-
+    
     .card-img-top{
     width: 180px;
     height: 160px;
@@ -194,7 +194,7 @@
         margin-top: -60px;
         border: 4px solid #fff;
     }
-
+    
 }
 
 
@@ -213,100 +213,79 @@
     #mobile-nav-open-btn {
         display: block;
     }
-
+    
 }
 
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 480px) {
-
     #mobile-nav-content .col-xs-6{
         margin-left: 25px;
         height: 135px;
         width: 150px;
     }
-
+    
     .navbar-brand img{
     height: 100px;
     width: 110px;
     border-radius: 85px;
     }
-
-    /* --preloader   */
-    #status{
-        width: 150px;
-        height: 150px;
-    }
-
-    /* navigation   */
-
-
-    .navbar-brand img{
-    height: 100px;
-    width: 110px;
-    border-radius: 85px;
-    }
-
-    /* --home--   */
+    
     #home{
-        height: 70%;
+        width: 100%;
     }
-
-    /*  --mission--  */
+    
+    #home-cover{
+        width: 100%;
+    }
+    
     #mission{
-        height: 90%;
+        height: auto;
     }
-
+    
     .mission-leaf{
-        margin-top: 0px;
+        margin: 0px auto;
         width: 200px;
         height: 200px;
-        margin-left: 100px;
     }
-
+    
     .fa-leaf{
         font-size: 120px;
     }
-
-    .mission-container-heading{
-        font-size: 48px;
-    }
-
+    
     .mission-container-context p{
-        margin: 0 8%;
+        margin: 0px 10%;
     }
-
-    /*  --juices--  */
-
+    
     #juices{
         text-align: center;
         width: 100%;
-        height: 190%;
+        height: auto;
     }
-
-    .juice-heading h3{
+    
+     .juice-heading h3{
         font-size: 60px;
     }
-
+    
     .juice-name{
         font-size: 18px;
         font-weight: 500;
     }
-
+    
     .ch-img-1,.ch-img-2,.ch-img-3,.ch-img-4,.ch-img-5,.ch-img-6{
         width: 80px;
         height: 80px;
         margin-left: 10px;
     }
-
+    
     #juices .col-xs-4{
+        margin: 0 auto;
         text-align: center;
-        width: 138px;
+        width: 120px;
         margin-top: 15px;
-
+        
     }
-
-    /*-Golden Glow-*/
+    
     #juice-cover-1,
     #juice-cover-2,
     #juice-cover-3,
@@ -314,38 +293,38 @@
     #juice-cover-5,
     #juice-cover-6
     {
-        height: 140%;
+        width: 100%;
     }
-
-    #juice-cover-2 h1,
+    
+     #juice-cover-2 h1,
     #juice-cover-4 h1,
     #juice-cover-5 h1,
     #juice-cover-6 h1
     {
-
+        
         font-size: 62px;
     }
-
+    
     #juice-cover-1 h1,
     #juice-cover-3 h1{
         font-size: 52px;
     }
-
-
+    
+    
     #juice-cover-2 .text-rotate,
     #juice-cover-4 .text-rotate, #juice-cover-5 .text-rotate,
     #juice-cover-6 .text-rotate{
         font-size: 72px;
         padding-left: 25%;
     }
-
+    
     #juice-cover-1 .text-rotate,
     #juice-cover-3 .text-rotate
     {
         font-size: 70px;
         margin-bottom: 0px;
     }
-
+    
     #juice-cover-1 .juice-info,
     #juice-cover-2 .juice-info,
     #juice-cover-3 .juice-info,
@@ -355,86 +334,84 @@
     {
         font-size: 23px;
     }
-
-    /*  ---comment--  */
+    
+     /*  ---comment--  */
     #comment{
-        height: 100%;
+        height: auto;
     }
-
     #comment img{
         width: 150px;
         height: 200px;
         margin-top: 10px;
     }
-
-    .comment-comment{
-        font-size: 18px;
-        margin: 0 25px;
+    
+    .comment-container{
+        padding: 40px 40px;
     }
-
-    .comment-comment span{
-        font-size: 30px;
-    }
-
+    
     .fa-quote-left,
     .fa-quote-right
     {
         font-size: 26px;
     }
-
-
-    /* --why-- */
+    
     #why{
-        height: 950px;
+        height: auto;
     }
-
-    #why-cover{
-        background-image: url("/static/img/why/why-cover.jpg")
+    
+    #why-cover {
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(0deg,rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url("/static/img/why/why-cover.jpg");
     }
-
+    
     .why-heading{
         font-size: 65px;
         margin-top: 10%;
         margin-left: 15%;
     }
-
+    
     .why-heading span{
         font-size: 75px;
         margin-left: -2%;
     }
-
+    
     .why-pngs{
         height: 110px;
         width: 110px;
     }
-
-    #why .col-xs-4{
-        width: 130px;
+    
+    .why-features{
+        margin: 20px auto;
     }
-
+    
+     #why .col-xs-4{
+         text-align: center;
+        width: 120px;
+    }
+    
     .why-content{
         font-size: 20px;
-        margin: 30px 45px;
+        margin: 40px 45px;
     }
-
-    /* --benifits */
+    
     .benifits-heading h1{
         font-size: 48px;
     }
-
+    
     .benifits-heading span{
         font-size: 52px;
     }
-
+    
     .card{
-        margin-left: 45px;
+        margin: 20px auto;
         height: 410px;
     }
-
+    
     .card-title{
         font-size: 18px;
     }
-
+    
     .card-img-top{
     width: 180px;
     height: 160px;
@@ -447,298 +424,80 @@
         margin-top: -60px;
         border: 4px solid #fff;
     }
-
+    
     .card-text{
         font-size: 15px;
     }
-
+    
     .card:hover{
     margin:15px;
     text-align: center;
     height: 440px;
-    margin-left: 45px;
     height: 410px;
+    margin: 20px auto;
     }
 
     .card:hover .card-img-top{
       width: 180px;
       height: 160px;
     }
-
-    /* --our story-- */
-    #story-content-inner{
-        padding-top: 38px;
-    }
-
-    #story-text p{
-        padding: 0px 30px;
-        padding-bottom: 370px;
-    }
-
-    #back-to-top{
-        visibility: hidden;
-    }
-}
-
-@media (max-width: 412px) {
-    .navbar-brand img{
-    height: 110px;
-    width: 120px;
-    border-radius: 85px;
-    }
-
-    #mission{
-        height: 90%;
-    }
-
-     /*  --juices--  */
-    #juices .col-xs-4{
-        text-align: center;
-        width: 132px;
-        margin-top: 15px;
-
-    }
-
-    #juice-cover-2{
-        height: 150%;
-    }
-
-    /*  ---comment--  */
-    #comment{
-        height: 90%;
-    }
-
-}
-
-@media (max-width: 376px) {
-
-    #mobile-nav-content .col-xs-6{
-        margin-left: 12px;
-    }
-
-
-     /* --home--   */
-    #home{
-        height: 78%;
-    }
-
-    /*  --mission--  */
-    #mission{
-        height: 100%;
-    }
-
-    .mission-leaf{
-        width: 170px;
-        height: 170px;
-        margin-left: 100px;
-    }
-
-    .fa-leaf{
-        font-size: 100px;
-    }
-
-    /*  --juices--  */
-
-    #juices{
-        height: 230%;
-    }
-
-    #juices .col-xs-4{
-        text-align: center;
-        width: 125px;
-        margin-top: 10px;
-
-    }
-
-    /*-Golden Glow-*/
-    #juice-cover-1,
-    #juice-cover-2,
-    #juice-cover-3,
-    #juice-cover-4,
-    #juice-cover-5,
-    #juice-cover-6{
-        height: 130%;
-    }
-
-    #juice-cover-2 h1{
-        font-size: 52px;
-    }
-    #juice-cover-2 .text-rotate{
-        font-size: 62px;
-        padding-left: 27%;
-    }
-
-    #juice-cover-1 h1,
-    #juice-cover-3 h1{
-        font-size: 46px;
-    }
-
-    /*  ---comment--  */
-    #comment{
-        height: 110%;
-    }
-
-    .comment-comment span{
-        font-size: 26px;
-    }
-
-    /* --why-- */
-    #why{
-        height: 900px;
-    }
-    .why-heading{
-        font-size: 65px;
-        margin-top: 10%;
-        margin-left: 15%;
-    }
-
-    .why-heading span{
-        font-size: 75px;
-        margin-left: -15%;
-    }
-
-    #why .col-xs-4{
-        width: 120px;
-        padding-left: 0px;
-    }
-
-    .why-content{
-        font-size: 20px;
-        margin: 25px 30px;
-    }
-
-    /* --benifits */
-    .benifits-heading h1{
-        font-size: 42px;
-    }
-
-    .benifits-heading span{
-        font-size: 45px;
-    }
-
-    .card{
-        margin-left: 30px;
-    }
-
-     /* --our story-- */
+    
     #story{
-        height: 1500px;
+        height: auto;
     }
-
+    
+    #story-content{
+        padding-top: 40px;
+    }
+    
     #story-text p{
-        padding: 0px 30px;
+        padding: 20px 50px;
     }
-
-
+    
 }
 
-
-
-@media (max-width: 361px){
-
-    #home{
-        height: 80%;
-    }
-
-    #mobile-nav-content .col-xs-6{
-        height: 135px;
-        width: 130px;
-    }
-
-    #juices .col-xs-4{
-        width: 115px;
-
-    }
-
-    #juices{
-        height: 240%;
-    }
-
-     #juice-cover-1 h1,
-    #juice-cover-3 h1{
-        font-size: 42px;
-    }
-
-    .card{
-        margin-left: 20px;
-    }
-}
 
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
+    
     #mobile-nav-content .col-xs-6{
-        height: 135px;
+        margin-left: 5px;
+    }
+    
+     #why .col-xs-4{
         width: 120px;
+        padding: 0px;
     }
 
-    /* --home--   */
-    #home{
-        height: 90%;
-    }
+}
 
-    /*  --mission--  */
-    #mission{
-        height: 120%;
-    }
-     .mission-leaf{
-        margin-left: 70px;
-    }
-
-     /*  --juices--  */
-    #juices .col-xs-4{
-        width: 103px;
-        margin-top: 15px;
-    }
-    .juice-name{
-        margin-left: 18px;
-    }
-
-    #juices{
-        height: 250%;
-    }
-
-    #juice-cover-1 h1,
-    #juice-cover-3 h1{
-        font-size: 36px;
-    }
-    #juice-cover-1 .juice-info,
-    #juice-cover-2 .juice-info,
-    #juice-cover-3 .juice-info,
-    #juice-cover-4 .juice-info,
-    #juice-cover-5 .juice-info,
-    #juice-cover-6 .juice-info
-    {
-        font-size: 20px;
-        padding: 10px 18px;
-    }
-
-    /*  ---comment--  */
-    #comment{
-        height: 140%;
-    }
-
-    /* --why-- */
-
-     #why{
-        height: 1000px;
-    }
-
-    .why-heading{
-        font-size: 55px;
-    }
-
+@media (max-width: 350px){
     .why-pngs{
         height: 90px;
         width: 90px;
     }
-
-     #why .col-xs-4{
+    
+    #why .col-xs-4{
         width: 100px;
-    }
-
-    /* --benifits */
-    .card{
-        margin-left: 2px;
+        margin: 0px auto;
     }
 }
+
+@media (max-width: 320px) {
+    
+    #mobile-nav-content .col-xs-6{
+        height: 135px;
+        width: 120px;
+    }
+    
+     /*  --juices--  */
+    #juices .col-xs-4{
+        width: 100px;
+        margin-top: 15px;
+    }
+    
+}
+
+
+

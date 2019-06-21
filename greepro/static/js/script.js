@@ -84,23 +84,19 @@ jQuery(function(){
 });
 
 // Smooth scrolling
-$(function () {
-
-    $("a.smooth-scroll").click(function (event) {
-
-        event.preventDefault();
-
-        // get/return id like #about, #work, #team and etc
-        var section = $(this).attr("href");
-
-        $('html, body').animate({
-            scrollTop: $(section).offset().top
-        }, 1250, "easeInOutExpo");
-    });
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
 });
-
-
-
 
 /* =========================================
               Mobile Menu
